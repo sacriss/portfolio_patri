@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header class="text-center">
+        <h1>Hi, I'm Alexa</h1>
+        <p>Frontend Developer</p>
+        <button class="btn">Contact Me</button>
+    </header>
+
+    <section class="about">
+        <h2>About Me</h2>
+        <p>Web developer with extensive knowledge and years of experience in web technologies and UI/UX design, delivering quality work.</p>
+    </section>
+
+    <section class="skills">
+        <h2>Skills</h2>
+        <div class="skill">
+            <span>HTML</span> <span>90%</span>
+            <div class="bar"><div class="fill" style="width:90%"></div></div>
+        </div>
+        <div class="skill">
+            <span>CSS</span> <span>85%</span>
+            <div class="bar"><div class="fill" style="width:85%"></div></div>
+        </div>
+        <div class="skill">
+            <span>JavaScript</span> <span>80%</span>
+            <div class="bar"><div class="fill" style="width:80%"></div></div>
+        </div>
+        <div class="skill">
+            <span>React</span> <span>85%</span>
+            <div class="bar"><div class="fill" style="width:85%"></div></div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <div class="icons">
+            <span>Email</span>
+            <span>Phone</span>
+            <span>Location</span>
+        </div>
+    </section>
+</body>
+</html>
